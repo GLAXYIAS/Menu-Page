@@ -1,1 +1,20 @@
+/* Container to center everything */
+.flavor-section {
+    text-align: center;
+    padding: 40px 20px;
+}
 
+/* This handles the "resizing" of the 1200px image */
+.flavor-img {
+    width: 100%;
+    max-width: 350px; /* Adjust this number to change the display size */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Optional: Slight zoom when you hover over the ice cream */
+.flavor-img:hover {
+    transform: scale(1.05);
+}
